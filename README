@@ -1,0 +1,30 @@
+README 
+
+calculateDeltaP, Version 1.1
+
+created 10 February 2012 by Samuel Flaxman and Michael Kopp
+
+Source code in this folder ("Version1.1") is written for implementation in MATLAB.
+
+Simply download the zipped file, unzip, and place the source code files in the desired directory.
+
+Start MATLAB, navigate to the directory where you have placed the source files, and type "calculateDeltaP" at the command line.
+
+Then, follow the prompts.
+
+Please report all bugs to samuel.flaxman@colorado.edu
+
+
+
+REVISION HISTORY
+
+Significant Revisions made from Version 1.0 to Version 1.1 include:
+
+* Improved the bootstrapping procedure used in "deltaP_multi_CI.m", correcting for bias in finding Euclidean distances between populations
+
+* Functions that used to be contained all within the file "deltaPinputOutput.m" have now been separated into three files:
+	(1) deltaPinput.m : prompts user for a lot of input to get the raw data into MATLAB and into the form used by the other functions
+	(2) calculateHedgesG.m : calculates all pairwise values (between populations/groups) of Hedges' G statistic
+	(3) outputDeltaPs.m : prompts user for a bit of input and then writes results on deltaP, G, descriptive stats, and Euclidean distances to a .csv file
+
+* Note that any of the 4 functions included in the source code can now be called in isolation if desired (so long as the appropriate arguments are defined and given as shown in the script).  For example, it is not necessary to re-run the whole script if all one wants to do is write a duplicate copy of output to a different file name (one can just call the outputDeltaPs(...) function (with appropriate arguments)).
