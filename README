@@ -6,7 +6,7 @@ created 10 February 2012 by Samuel Flaxman and Michael Kopp
 
 Source code in this folder ("Version1.1") is written for implementation in MATLAB.
 
-Simply download the zipped file, unzip, and place the source code files in the desired directory.
+Simply download the source files to your desired directory.  Your data files must also be in that directory.
 
 Start MATLAB, navigate to the directory where you have placed the source files, and type "calculateDeltaP" at the command line.
 
