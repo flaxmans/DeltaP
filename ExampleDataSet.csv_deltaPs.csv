@@ -1,0 +1,33 @@
+Results for trait 1: mRWL
+population,sample size,min,max,mean,median,std. dev.,c.v.,percentile
+erythrogaster,7.000000,117.000000,123.500000,120.000000,119.830000,2.428573,0.020238,28.571429
+transitiva,13.000000,122.000000,131.000000,126.307692,126.000000,3.473342,0.027499,80.769231
+
+Popn. 1,Popn. 2,delta-P,lower CI limit,upper CI limit,p-value from permutation test,Hedges G
+erythrogaster,transitiva,-52.197802,-67.582418,-45.054945,0.004000,-1.993798
+
+Results for trait 2: mRTS
+population,sample size,min,max,mean,median,std. dev.,c.v.,percentile
+erythrogaster,7.000000,81.000000,100.000000,89.357143,87.670000,7.516038,0.084112,28.571429
+transitiva,13.000000,91.000000,117.000000,108.076923,110.000000,8.118513,0.075118,76.923077
+
+Popn. 1,Popn. 2,delta-P,lower CI limit,upper CI limit,p-value from permutation test,Hedges G
+erythrogaster,transitiva,-48.351648,-59.890110,-29.670330,0.002000,-2.362779
+
+Results for trait 3: Mass
+population,sample size,min,max,mean,median,std. dev.,c.v.,percentile
+erythrogaster,7.000000,16.740000,19.500000,17.748571,17.750000,0.891636,0.050237,54.945055
+transitiva,13.000000,15.800000,21.500000,18.076923,18.500000,1.828093,0.101129,73.626374
+
+Popn. 1,Popn. 2,delta-P,lower CI limit,upper CI limit,p-value from permutation test,Hedges G
+erythrogaster,transitiva,-18.681319,-44.505495,42.857143,0.490000,-0.207961
+
+Summary of population distances from each other based upon all traits
+Popn. 1,Popn. 2,Euclidean Distance,bias-corrected E.D.,lower CI limit,upper CI limit,p-value from permutation test
+erythrogaster,transitiva,73.562790,75.318510,53.604526,86.368663,0.000000
+
+Percentiles for all traits and populations (concatenation of "percentile" columns above)
+,erythrogaster,transitiva
+mRWL,28.571429,80.769231
+mRTS,28.571429,76.923077
+Mass,54.945055,73.626374
